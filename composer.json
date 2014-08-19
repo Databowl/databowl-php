@@ -1,0 +1,20 @@
+{
+    "name": "databowl/databowl-php",
+    "description": "Databowl PHP Library",
+    "minimum-stability": "stable",
+    "license": "BSD",
+    "authors": [
+        {
+            "name": "Tom Pryor",
+            "email": "tom@databowl.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "4.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Databowl": "src/"
+        }
+    }
+}
